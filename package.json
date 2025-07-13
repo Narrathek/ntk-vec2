@@ -1,13 +1,19 @@
 {
   "name": "ntk-vec",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
   "author": "Simon Petereit",
   "description": "A tiny, fully-typed 2D/3D vector math library for TypeScript & JavaScript.",
-  "keywords": ["vector","math","typescript"],
-  "bugs": { "url": "https://github.com/Narrathek/ntk-vec2/issues" },
+  "keywords": [
+    "vector",
+    "math",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/Narrathek/ntk-vec2/issues"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,12 +29,14 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "concurrently": "^9.2.0",
     "jest": "^30.0.4",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.0"
   }
