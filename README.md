@@ -12,7 +12,7 @@ npm install ntk-vec
 
 ### Basic 2D operations
 ```typescript
-import { Vec2 } from 'vector-lib';
+import { Vec2 } from 'ntk-vec';
 
 const a = new Vec2(1, 2);
 const b = new Vec2(3, 5);
@@ -29,7 +29,7 @@ console.log(distance.toFixed(2)); // "3.61"
 ### Rotate & interpolate
 
 ```typescript
-import { Vec2 } from 'vector-lib';
+import { Vec2 } from 'ntk-vec';
 
 // fromAngle: unit vector at 45°
 const dir = Vec2.fromAngle(Math.PI / 4);
