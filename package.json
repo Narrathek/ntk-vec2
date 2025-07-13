@@ -4,6 +4,15 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
+  "author": "Simon Petereit",
+  "description": "A tiny, fully-typed 2D/3D vector math library for TypeScript & JavaScript.",
+  "keywords": ["vector","math","typescript"],
+  "bugs": { "url": "https://github.com/Narrathek/ntk-vec2/issues" },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Narrathek/ntk-vec2.git"
+  },
   "files": [
     "dist"
   ],
